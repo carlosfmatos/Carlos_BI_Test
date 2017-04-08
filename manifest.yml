@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Carlos_BI_Test
+  host: CarlosBITest
+  disk_quota: 1024M
+  services:
+  - Carlos_BI_Test-cloudantNoSQLDB
